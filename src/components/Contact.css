@@ -1,0 +1,152 @@
+/*
+Name:Sahil Gupta
+Date:5 Oct 2024
+File Name:Porfolio
+Studend_id:301436261
+*/
+.contact_labels {
+    display: block;
+}
+
+.contact_content {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+form {
+    padding: 20px;
+    backdrop-filter: blur(2px);
+    transition: all 2s;
+    border-radius: 10px;
+}
+
+form:hover {
+    border: 4px solid rgba(178, 182, 153);
+}
+
+
+#description {
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    backdrop-filter: blur(14px);
+    border: 4px solid rgba(178, 182, 153);
+    outline: none;
+    transition: transform 1s;
+    border-radius: 10px;
+    color: aquamarine;
+
+
+}
+
+#description:hover {
+    transform: scale(1.04);
+}
+
+.submit_reset_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit,
+.reset {
+    font-weight: bolder;
+    outline: none;
+    color:rgba(121,156,184,255);
+    text-align: center;
+    color: aquamarine;
+    background-color: transparent;
+    padding: 10px;
+    border: 4px solid rgba(178, 182, 153);
+    border-radius: 10px;
+    transition: all 1s;
+
+}
+
+::placeholder {
+    color:rgba(121,156,184,255);
+    font-weight: bolder;
+
+
+}
+
+.submit:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    
+}
+
+.reset:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+    color:rgba(121,156,184,255);
+
+}
+
+#name,
+#email {
+    outline: none;
+    caret-color: #007BFF;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 4px solid rgba(178, 182, 153);
+    height: 40px;
+    color: aquamarine;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: transform 1s;
+    margin: 0 0 30px 0;
+}
+
+#name:hover {
+    transform: scale(1.04);
+
+}
+
+#email:hover {
+
+    transform: scale(1.04);
+
+}
+
+.contact_beach_video {
+    position: relative;
+}
+
+label {
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+}
+.contact_navbar_content{
+    position: absolute;
+    top:10px;
+    width: 100%;
+}
+.contact_navbar{
+    margin:auto;
+    width: 60%;;
+}
+.li_contact{
+    margin: 0 50px 0 50px;
+    transition: all 2s;
+}
+.li_contact:hover{
+    border-top:4px solid rgba(121,156,184,255);
+    border-bottom:4px solid rgba(121,156,184,255);
+}
+.a_contact{
+    color:rgba(121,156,184,255);
+
+}
+.logo{
+    position: absolute;
+    top:40px;
+}

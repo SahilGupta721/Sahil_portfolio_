@@ -1,0 +1,48 @@
+.container_service{
+    position: absolute;
+    top:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section_service_content{
+    position: absolute;
+    top:250px;
+    width: 100%;
+}
+#service_one,#service_two,#service_three{
+    border: 2px solid white;
+    width:250px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+}
+#service_cards{
+    display: flex;
+    gap:10px;
+    width: 100%;
+
+    justify-content: center;
+}
+#service_one{
+    background-image: url(./images/mern_stack.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:10px ;
+
+}
+#service_two{
+    background-image: url(./images/general.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:10px ;
+}
+#service_three{
+    padding:10px ;
+    background-image: url(./images/backend.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

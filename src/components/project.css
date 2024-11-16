@@ -1,0 +1,69 @@
+.container_project {
+    position: absolute;
+    top: 10px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#project_one,
+#project_two,
+#project_three {
+    width: 250px;
+    border: 2px solid white;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.section_project_content {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#project_cards {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    gap: 50px;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    transition: all 2s;
+}
+
+#project_cards:hover {
+
+    border: 3px solid white;
+    cursor: pointer;
+}
+#project_one{
+    background-image:url(./images/project_one.png) ;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project_two{
+    background-image:url(./images/project_two.png) ;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project_three{
+    background-image:url(./images/project_three.png) ;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#project_content{
+    color:white;
+}

@@ -9,12 +9,12 @@ Studend_id:301436261
 *{
     margin:0;
 }
-.a_about{
+li.nav{
     color: rgba(121,190,207,255);  
     font-weight: bolder;
     font-size: larger;
 }
-.li_about:hover{
+li.nav:hover{
     border-top:4px solid rgba(121,190,207,255);
     border-bottom:4px solid rgba(121,190,207,255);
 }
@@ -34,7 +34,10 @@ ul{
     margin: auto;
     justify-content: space-evenly;
     
-    
+}
+.About_navbar>ul{
+    display: flex;
+    justify-content: center;
 }
 .li_about{
     margin:0 50px 0 50px;
@@ -93,6 +96,7 @@ ul{
 #about_span{
     text-align: center;
     font-size: 2em;
+    color: aquamarine;
 }
 .about_para{
     color: aquamarine;

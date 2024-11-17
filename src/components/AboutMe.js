@@ -18,17 +18,15 @@ function About() {
                     {/* Added different video */}
                     <video src={drone2k} autoPlay loop muted />
                 </div>
-                <div>
-                    <img src={logocolor} className='logo' alt="logo" style={{ width: 120 }} />
-                </div>
+                
                 <nav className='About_navbar'>
                     <ul>
-                        <li className='li_about' ><NavLink className="a_about" to='/'>Home</NavLink></li>
-                        <li className='li_about'><NavLink className="a_about" to='/Project'>Projects</NavLink></li>
-                        <li className='li_about'><NavLink className="a_about" to='/AboutMe'>About</NavLink></li>
-                        <li className='li_about'><NavLink className="a_about" to='/Contact-Me'>Contact</NavLink></li>
-                        <li className='li_about'><NavLink className="a_about" to='/Services'>Services</NavLink></li>
-                        <li className='li_about'><a className="a_about" href={resume} download>Resume</a></li>
+                        <li className="nav" ><NavLink className="a_about" to='/'>Home</NavLink></li>
+                        <li className="nav"><NavLink className="a_about" to='/Project'>Projects</NavLink></li>
+                        <li className="nav"><NavLink className="a_about" to='/AboutMe'>About</NavLink></li>
+                        <li className="nav"><NavLink className="a_about" to='/Contact-Me'>Contact</NavLink></li>
+                        <li className="nav"><NavLink className="a_about" to='/Services'>Services</NavLink></li>
+                        
 
 
                     </ul>

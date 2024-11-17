@@ -5,27 +5,44 @@
     display: flex;
     justify-content: center;
 }
+
 .section_service_content{
     position: absolute;
-    top:250px;
+    flex-wrap: wrap;
+    display: flex;
+    top:120px;
     width: 100%;
 }
-#service_one,#service_two,#service_three{
-    border: 2px solid white;
-    width:250px;
-    height: 250px;
-    border-radius: 10px;
+.container_service>nav>ul{
+    display: flex;
+
+}
+.container_service{
+    margin-top:20px;
+}
+#technical_skills,#web_database,#programming_languages{
+    width:350px;
+    height: 308px;
     color: white;
+    border: transparent;
+    transition: 0.5s all ease-in;
+}
+
+#technical_skills:hover,#web_database:hover,#programming_languages:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: rgba(8,203,229,255);
+    cursor: pointer;
 }
 #service_cards{
     display: flex;
-    gap:10px;
+    gap:25px;
     width: 100%;
 
     justify-content: center;
 }
 #service_one{
-    background-image: url(./images/mern_stack.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -33,7 +50,7 @@
 
 }
 #service_two{
-    background-image: url(./images/general.jpg);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -41,8 +58,33 @@
 }
 #service_three{
     padding:10px ;
-    background-image: url(./images/backend.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.material-symbols-outlined{
+    color:white;
+}
+.technical_skills_list{
+    list-style-type: none;
+    backdrop-filter: blur(0);
+}
+ul>div>li{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+#technical_skills>h3{
+    text-align: center;
+}
+#web_database>h3{
+    text-align: center;
+}
+#programming_languages>h3{
+    text-align:center;
+}
+#web_database{
+    margin:auto;
+    margin-top:30px;
+
 }

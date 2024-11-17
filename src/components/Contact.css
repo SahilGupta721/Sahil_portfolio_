@@ -134,11 +134,14 @@ label {
     margin:auto;
     width: 60%;;
 }
-.li_contact{
-    margin: 0 50px 0 50px;
+.contact_navbar>ul{
+    display: flex;
+}
+li.nav{
+    margin: 0 20px 0 20px;
     transition: all 2s;
 }
-.li_contact:hover{
+li.nav:hover{
     border-top:4px solid rgba(121,156,184,255);
     border-bottom:4px solid rgba(121,156,184,255);
 }

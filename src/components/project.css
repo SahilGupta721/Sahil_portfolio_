@@ -7,6 +7,9 @@
     justify-content: center;
 
 }
+.container_project>nav>ul{
+    display: flex;
+}
 
 #project_one,
 #project_two,
@@ -51,19 +54,28 @@
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
+    color: black;
 }
 #project_two{
-    background-image:url(./images/project_two.png) ;
+    background-image:url(./images/slideshow.webp) ;
     background-position:center ;
     background-size: cover;
+    color: black;
     background-repeat: no-repeat;
 }
 #project_three{
-    background-image:url(./images/project_three.png) ;
+    background-image:url(./images/gui.jpeg) ;
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #project_content{
     color:white;
+}
+div>a{
+    text-align: center;
+    font-size: larger;
+}
+.section_project_content{
+    margin-top:20px ;
 }

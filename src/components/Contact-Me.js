@@ -11,15 +11,15 @@ function Contact() {
             </div>
             <div className="contact_navbar_content">
             <div>
-                    <img src={logocolor} className='logo' alt="logo" style={{ width: 120 }} />
+                    
                 </div>
                 <nav className="contact_navbar">
                     <ul>
-                        <li className="li_contact"><NavLink className="a_contact" to='/'>Home</NavLink></li>
-                        <li className="li_contact"><NavLink className="a_contact" to='/Project'>Projects</NavLink></li>
-                        <li className="li_contact"><NavLink className="a_contact" to='/AboutMe'>About</NavLink></li>
-                        <li className="li_contact"><NavLink className="a_contact" to='/Contact-Me'>Contact</NavLink></li>
-                        <li className="li_contact"><NavLink className="a_contact" to='/Services'>Services</NavLink></li>
+                        <li  className="nav"><NavLink className="a_contact" to='/'>Home</NavLink></li>
+                        <li  className="nav"><NavLink className="a_contact" to='/Project'>Projects</NavLink></li>
+                        <li className="nav"><NavLink className="a_contact" to='/AboutMe'>About</NavLink></li>
+                        <li className="nav"><NavLink className="a_contact" to='/Contact-Me'>Contact</NavLink></li>
+                        <li className="nav"><NavLink className="a_contact" to='/Services'>Services</NavLink></li>
                     </ul>
                 </nav>
            

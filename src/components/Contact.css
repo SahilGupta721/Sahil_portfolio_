@@ -7,7 +7,14 @@ Studend_id:301436261
 .contact_labels {
     display: block;
 }
-
+.contact_drone_video>video{
+    /*This code is very imp to make responsive video*/
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+}
 .contact_content {
     display: flex;
     position: absolute;
@@ -152,4 +159,16 @@ li.nav:hover{
 .logo{
     position: absolute;
     top:40px;
+}
+@media (max-width: 829px) {
+    .contact_navbar{
+        margin:0;
+    }
+    .contact_content>form{
+        width: 60%;
+    }
+    .contact_content>form>input, textarea{
+        width:90%;
+    }
+    
 }

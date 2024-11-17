@@ -34,9 +34,25 @@ li.nav:hover{
 }
 
 video{
-  object-fit: contain;
+  object-fit: cover;
   width: 100%;
+  z-index: -1;
+  position: fixed;
 }
+/*video{
+    width:100%;
+    width: fit-content;
+    height:100%;
+    z-index: -1;
+    position: fixed;
+    object-fit: cover;
+    top:0;
+    left: 0;
+}
+body{
+    width: 100%;
+
+}*/
 #container_home_video{
   position: relative;
   width: 100%;

@@ -5,6 +5,29 @@
     display: flex;
     justify-content: center;
 }
+#container_service_video>video{
+    /*This code is very imp to make responsive video*/
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+   
+}
+/* video{
+        width:100%;
+        width: fit-content;
+        height:100%;
+        z-index: -1;
+        position: fixed;
+        object-fit: cover;
+        top:0;
+        left: 0;
+    }
+    body{
+        width: 100%;
+    
+    }*/
 
 .section_service_content{
     position: absolute;
@@ -88,3 +111,22 @@ ul>div>li{
     margin-top:30px;
 
 }
+
+/*Responsive design begin*/
+@media (max-width: 687px) {
+    li.nav{
+        margin: 0 2px 0 2px;
+    }
+    .container_service {
+        justify-content: flex-start;
+    }
+    .section_service_content {
+        display: block;
+    }
+    #service_cards{
+        display: block;
+    }
+    #web_database, #programming_languages, #technical_skills {
+        margin:auto
+    }
+    }

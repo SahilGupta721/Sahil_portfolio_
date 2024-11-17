@@ -10,9 +10,7 @@ function Contact() {
                 <video src={drone2k} autoPlay loop muted></video>
             </div>
             <div className="contact_navbar_content">
-            <div>
-                    
-                </div>
+            
                 <nav className="contact_navbar">
                     <ul>
                         <li  className="nav"><NavLink className="a_contact" to='/'>Home</NavLink></li>

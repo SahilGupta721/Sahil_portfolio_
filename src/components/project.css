@@ -10,6 +10,12 @@
 .container_project>nav>ul{
     display: flex;
 }
+#container_project_video>video{
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
 #project_one,
 #project_two,
@@ -79,3 +85,16 @@ div>a{
 .section_project_content{
     margin-top:20px ;
 }
+@media (max-width: 1098px) {
+    #project_cards{
+        display: block;
+    }        
+    #project_cards>a{
+        margin-top:20px;
+        display: block;
+    }
+    .section_project_content{
+        top:150px;
+    }
+}
+  

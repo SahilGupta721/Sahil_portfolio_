@@ -45,7 +45,7 @@ function Navigation() {
                         
                         </div>
                         <div >
-                            <NavLink id='github' to="https://github.com/SahilGupta721/Gui-Calculator"><GitHubIcon  /></NavLink>
+                            <NavLink id='github' to="https://github.com/SahilGupta721"><GitHubIcon  /></NavLink>
                         
                         </div>
                         <div >

@@ -22,8 +22,8 @@ function Projects() {
             </div>
             <section className="section_project_content">
                 <div id="project_cards">
-                <a href="http://studentweb.cencol.ca/sgupt172/Assignment-3/assignment3.html" target="_blank" rel="noopener noreferrer">
-                    <div id="project_one">Bug Smasher</div>
+                <a href="https://github.com/Hackathon-CareConnect/CareConnectMonoRepo" target="_blank" rel="noopener noreferrer">
+                    <div id="project_one"></div>
                 </a>
                 <a href="http://studentweb.cencol.ca/sgupt172/ASSIGNMENT2/js05_txt.html" ><div id="project_two">Slideshow</div></a>
 

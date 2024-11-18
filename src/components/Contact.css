@@ -96,8 +96,8 @@ form:hover {
 
 }
 
-#name,
-#email {
+form>#name,
+form>#email {
     outline: none;
     caret-color: #007BFF;
     color: black;

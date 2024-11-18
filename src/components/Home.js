@@ -3,6 +3,10 @@ import logocolor from './images/logocolor.png';
 import city from './videos/city.mp4';
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+//importing icons
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 // Navigation component
 function Navigation() {
@@ -35,6 +39,21 @@ function Navigation() {
                         <li > Volunteer Marketing Director at GDG Vancouver</li>
                         <li >Volunteer Interviewer at CodePath</li>
                         </ul>
+                        <div className='icons'>
+                        <div >
+                            <NavLink id='linkedin' to='https://www.linkedin.com/in/sahil-gupta-7224962a7/'><LinkedInIcon  /></NavLink>
+                        
+                        </div>
+                        <div >
+                            <NavLink id='github' to="https://github.com/SahilGupta721/Gui-Calculator"><GitHubIcon  /></NavLink>
+                        
+                        </div>
+                        <div >
+                            <NavLink id='Email' to="mailto:sahilgupta@70500gmail.com">
+                        <EmailIcon />
+                        </NavLink>
+                        </div>
+                        </div>
                 </section>
                 <section id="right_section">
                     <p id="right_section_para">Globally focused software engineering student</p>

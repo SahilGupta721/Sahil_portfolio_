@@ -53,22 +53,35 @@ body{
     width: 100%;
 
 }*/
+
+#linkedin>svg, #github>svg, #Email>svg{
+  color: white;
+  margin: 0 10px 0 15px;
+  font-size: 50px;
+  display: block;
+  transition: 1s all;
+}
+#linkedin>svg:hover, #github>svg:hover, #Email>svg:hover{
+  color:rgba(8,203,229,255);
+}
+.icons{
+  display: flex;
+}
+.icons>div{
+  height:60px;
+}
 #container_home_video{
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-video {
-  width:auto;
-  height: auto;
-  min-width: 100%;
-  max-width: 100%;
-  transform: translate(-50%,-50%);
+#container_home_video>video {
+  width:100%;
+  height: 100%;
   z-index: -1;
-  top: 50%;
-  left: 50%;
-  position: absolute;
+  object-fit: cover;
+  position: fixed;
 }
 .container{
   display: flex;
@@ -181,9 +194,18 @@ li.nav_home:hover{
   border-bottom:4px solid rgba(121,156,184,255);
 }
 
-@media (max-width: 1098px) {
+@media (max-width: 655px) {
   #home_content {
-    top:80px;
+    top:120px;
+  }
+  li.nav_home {
+    margin: 0 10px 0 10px;
+  }
+  #home_content{
+    display: block;
+  }
+  #left_section, #right_section{
+    margin: auto;
 
   }
-}
+  }

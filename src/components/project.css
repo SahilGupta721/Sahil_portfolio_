@@ -1,3 +1,36 @@
+nav > ul > .nav_project:hover{
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+}
+
+nav > ul > li {
+    position: relative; /* Ensure the li element holds the pseudo-element correctly */
+  }
+  
+  nav > ul > li > a {
+    position: relative; /* Make sure the a element contains the pseudo-element */
+    text-decoration: none; /* Optional: remove any default underlines */
+  }
+  nav > ul > .nav_project > {
+    font-size: 12px;
+  }
+  
+  nav > ul > .nav_project::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%; /* Initially hide the line */
+    height: 1px; /* Line thickness */
+    background-color:white; /* Color of the line */
+    transition: all 500ms ease-in-out; /* Smooth transition */
+    border-top: 2px solid transparent; /* Optional: Keep top border transparent */
+  }
+  
+  nav > ul > .nav:hover::after {
+    right: 0; /* Expands the line to full width */
+  }
+
 .container_project {
     position: absolute;
     top: 10px;
@@ -42,19 +75,15 @@
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     gap: 50px;
-    backdrop-filter: blur(5px);
     align-items: center;
     display: flex;
     gap:20px;
     justify-content: center;
     transition: all 2s;
+    margin-bottom: 400px;
 }
 
-#project_cards:hover {
 
-    border: 3px solid white;
-    cursor: pointer;
-}
 #project_one{
     background-image:url(./images/CareConnect.png) ;
     background-position:center ;
@@ -98,3 +127,36 @@ div>a{
     }
 }
   
+.container_project li>a{
+    color: white;
+}
+nav > ul > li {
+    position: relative; /* Ensure the li element holds the pseudo-element correctly */
+  }
+  
+  nav > ul > li > a {
+    position: relative; /* Make sure the a element contains the pseudo-element */
+    text-decoration: none; /* Optional: remove any default underlines */
+  }
+  nav > ul > .nav > {
+    font-size: 12px;
+  }
+  
+  nav > ul > .nav::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 100%; /* Initially hide the line */
+    height: 1px; /* Line thickness */
+    background-color:white; /* Color of the line */
+    transition: all 500ms ease-in-out; /* Smooth transition */
+    border-top: 2px solid transparent; /* Optional: Keep top border transparent */
+  }
+  
+  nav > ul > .nav:hover::after {
+    right: 0; /* Expands the line to full width */
+  }
+  li.nav:hover{
+    border: 2px solid transparent;
+  } 

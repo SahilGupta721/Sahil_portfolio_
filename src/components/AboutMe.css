@@ -9,12 +9,18 @@ Studend_id:301436261
 *{
     margin:0;
 }
-li.nav{
-    color: rgba(121,190,207,255);  
-    font-weight: bolder;
-    font-size: larger;
+.About_navbar a{
+    color:black
+    
 }
-li.nav:hover{
+.About_navbar>.nav{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.About_navbar>.nav a{
+    color: rgba(121,190,207,255); 
+}
+.About_navbar>li.nav:hover{
     border-top:4px solid rgba(121,190,207,255);
     border-bottom:4px solid rgba(121,190,207,255);
 }

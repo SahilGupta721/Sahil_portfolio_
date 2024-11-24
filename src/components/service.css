@@ -130,3 +130,7 @@ ul>div>li{
         margin:auto
     }
     }
+
+    .container_service li>a{
+        color: white;
+    }

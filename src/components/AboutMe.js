@@ -37,7 +37,7 @@ function About() {
                 <div id="about_content">
                 <span id="about_span">Hi!</span>
                 <p className='about_para'>
-                I am Sahil Gupta currently working as a IBM Z Ambassador at IBM, , Volunteer Marketing Director at GDG, Vanocuver, Volunteer Interviewer at CodePath, and was a former SWE intern at Headstarter.<br/><br/>I am particularly interested in opportunities that allow me to leverage my technical expertise in software engineering and contribute to innovative projects. I am passionate to thrive in collaborative environments where I can work with diverse teams to create robust and scalable software solutions.
+                I am Sahil Gupta currently working as a IBM Z Ambassador at IBM, Volunteer Marketing Director at GDG, Vancouver, Volunteer Interviewer at CodePath, and was a former SWE intern at Headstarter.<br/><br/>I am particularly interested in opportunities that allow me to leverage my technical expertise in software engineering and contribute to innovative projects. I am passionate to thrive in collaborative environments where I can work with diverse teams to create robust and scalable software solutions.
                 </p>
             </div>
                 </section>

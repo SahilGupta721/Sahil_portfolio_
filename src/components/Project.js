@@ -25,7 +25,7 @@ function Projects() {
                 <a href="https://github.com/Hackathon-CareConnect/CareConnectMonoRepo" target="_blank" rel="noopener noreferrer">
                     <div id="project_one"></div>
                 </a>
-                <a href="http://studentweb.cencol.ca/sgupt172/ASSIGNMENT2/js05_txt.html" ><div id="project_two">Slideshow</div></a>
+                <a href="http://studentweb.cencol.ca/sgupt172/Assignment-3/assignment3.html" ><div id="project_two">Bug Smasher</div></a>
 
                 <a href="https://github.com/SahilGupta721/Gui-Calculator"><div id="project_three">GUI Application</div></a>
                 {/* <p id="project_content">

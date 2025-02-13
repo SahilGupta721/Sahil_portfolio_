@@ -33,6 +33,7 @@ function Services() {
                                 <div id="technical_skill_two"><li><VerifiedIcon /> <h4>Object Oriented Programming</h4></li></div>
                                 <div id="technical_skill_three"><li><VerifiedIcon /><h4> UX/UI Prototyping</h4></li></div>
                                 <div id="technical_skill_four"><li><VerifiedIcon /><h4> Data Structures & Algorithms</h4></li></div>
+                                <div id="technical_skill_five"><li><VerifiedIcon /><h4> Data Analysis</h4></li></div>
                             </ul>
                         </div>
                     </div>
@@ -52,6 +53,7 @@ function Services() {
                         </ul>
                     </div>
                 </div>
+                <div id="service_card-2">
                 <div id="web_database">
                     <h3>Web & Database</h3>
                     <div className="technical_skills_content">
@@ -65,6 +67,22 @@ function Services() {
                             <div id="technical_skill_six"><li><VerifiedIcon /><h4> SQL & NOSQL</h4></li></div>
                         </ul>
                     </div>
+                </div>
+                <div id="tools">
+                    <h3>Tools</h3>
+                    <div className="tools_content">
+                        <ul className="tools_list">
+                            <div id="tool_one"><li><VerifiedIcon /> <h4>Jira</h4></li></div>
+                            <div id="tool_two"><li><VerifiedIcon /> <h4>Visual Studio 2022</h4></li></div>
+                            <div id="tool_three"><li><VerifiedIcon /> <h4>Visual Studio Code</h4></li></div>
+                            <div id="tool_four"><li><VerifiedIcon /> <h4>Power BI</h4></li></div>
+                            <div id="tool_five"><li><VerifiedIcon /> <h4>Tableau</h4></li></div>
+                            <div id="tool_six"><li><VerifiedIcon /> <h4>MS Office 365</h4></li></div>
+
+                            
+                        </ul>
+                    </div>
+                </div>
                 </div>
             </section>
         </>

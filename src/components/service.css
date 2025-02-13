@@ -43,7 +43,7 @@
 .container_service{
     margin-top:20px;
 }
-#technical_skills,#web_database,#programming_languages{
+#technical_skills,#web_database,#tools,#programming_languages{
     width:350px;
     height: 308px;
     color: white;
@@ -51,7 +51,7 @@
     transition: 0.5s all ease-in;
 }
 
-#technical_skills:hover,#web_database:hover,#programming_languages:hover{
+#technical_skills:hover,#web_database:hover,#tools:hover,#programming_languages:hover{
     border: 2px solid white;
     border-radius: 10px;
     backdrop-filter: blur(10px);
@@ -85,12 +85,37 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+#service_card-2{
+    display: flex;
+    gap:25px;
+    width: 100%;
+
+    justify-content: center
+}
+#tools{
+    width: 350px;
+    height: 308px;
+    color: white;
+    border: transparent;
+    transition: 0.5s all ease-in;
+}
+
 .material-symbols-outlined{
     color:white;
 }
 .technical_skills_list{
     list-style-type: none;
     backdrop-filter: blur(0);
+}
+
+.tools_list{
+    list-style-type: none;
+    backdrop-filter: blur(0);
+}
+#tools>h3{
+    text-align: center;
+
 }
 ul>div>li{
     display: flex;
@@ -111,6 +136,9 @@ ul>div>li{
     margin-top:30px;
 
 }
+#web_database{
+    margin:0;
+}
 
 /*Responsive design begin*/
 @media (max-width: 687px) {
@@ -123,10 +151,11 @@ ul>div>li{
     .section_service_content {
         display: block;
     }
-    #service_cards{
+    #service_cards,#service_card-2{
         display: block;
     }
-    #web_database, #programming_languages, #technical_skills {
+
+    #web_database, #programming_languages, #tools, #technical_skills {
         margin:auto
     }
     }

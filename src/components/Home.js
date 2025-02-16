@@ -1,8 +1,11 @@
 import '../index.css';
+import Swal from 'sweetalert2';
+
 import logocolor from './images/logocolor.png';
 import city from './videos/city.mp4';
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 //importing icons
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 
@@ -13,6 +16,22 @@ import EmailIcon from '@mui/icons-material/Email';
 // Navigation component
 function Navigation() {
 
+
+    useEffect(() => {
+        // Show the custom confirmation modal
+        Swal.fire({
+            title: 'Check out my latest project!',
+            text: 'Would you like to check it out?',
+            icon: 'info',
+            showCancelButton: true,
+            confirmButtonText: 'Yes',
+            cancelButtonText: 'No'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.open('https://interviewprep-ddne.onrender.com/', '_blank');
+            }
+        });
+    }, []);
 
     return (
         <>

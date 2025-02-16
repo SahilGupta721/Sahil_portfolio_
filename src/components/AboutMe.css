@@ -116,3 +116,9 @@ ul{
     color: aquamarine;
 
 }
+@media (max-width: 655px) 
+{
+    #about_content{
+        width: 70%;
+    }
+}

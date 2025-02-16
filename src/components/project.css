@@ -1,15 +1,47 @@
+/* Adding video to project-1 */
+#links{
+  display: flex;
+  justify-content: space-between;
+
+}
+.github{
+  margin-top:200px;
+  background-color: lightgreen;
+  display: inline-block;
+  color: black;
+}
+
+#project_one{
+  position: relative;
+
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#project_one>video {
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+#project_one>span{
+  font-weight: bolder;
+}
 nav > ul > .nav_project:hover{
     border-bottom: 2px solid transparent;
     border-top: 2px solid transparent;
 }
 
 nav > ul > li {
-    position: relative; /* Ensure the li element holds the pseudo-element correctly */
+    position: relative; 
   }
   
   nav > ul > li > a {
-    position: relative; /* Make sure the a element contains the pseudo-element */
-    text-decoration: none; /* Optional: remove any default underlines */
+    position: relative; 
+    text-decoration: none; 
   }
   nav > ul > .nav_project > {
     font-size: 12px;
@@ -20,15 +52,15 @@ nav > ul > li {
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 100%; /* Initially hide the line */
-    height: 1px; /* Line thickness */
-    background-color:white; /* Color of the line */
-    transition: all 500ms ease-in-out; /* Smooth transition */
-    border-top: 2px solid transparent; /* Optional: Keep top border transparent */
+    right: 100%; 
+    height: 1px; 
+    background-color:white;
+    transition: all 500ms ease-in-out;
+    border-top: 2px solid transparent; 
   }
   
   nav > ul > .nav:hover::after {
-    right: 0; /* Expands the line to full width */
+    right: 0; 
   }
 
 .container_project {
@@ -85,7 +117,6 @@ nav > ul > li {
 
 
 #project_one{
-    background-image:url(./images/CareConnect.png) ;
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,12 +162,12 @@ div>a{
     color: white;
 }
 nav > ul > li {
-    position: relative; /* Ensure the li element holds the pseudo-element correctly */
+    position: relative; 
   }
   
   nav > ul > li > a {
-    position: relative; /* Make sure the a element contains the pseudo-element */
-    text-decoration: none; /* Optional: remove any default underlines */
+    position: relative; 
+    text-decoration: none; 
   }
   nav > ul > .nav > {
     font-size: 12px;
@@ -147,15 +178,15 @@ nav > ul > li {
     position: absolute;
     bottom: 0;
     left: 0;
-    right: 100%; /* Initially hide the line */
-    height: 1px; /* Line thickness */
-    background-color:white; /* Color of the line */
-    transition: all 500ms ease-in-out; /* Smooth transition */
-    border-top: 2px solid transparent; /* Optional: Keep top border transparent */
+    right: 100%; 
+    height: 1px; 
+    background-color:white; 
+    transition: all 500ms ease-in-out;
+    border-top: 2px solid transparent; 
   }
   
   nav > ul > .nav:hover::after {
-    right: 0; /* Expands the line to full width */
+    right: 0; 
   }
   li.nav:hover{
     border: 2px solid transparent;

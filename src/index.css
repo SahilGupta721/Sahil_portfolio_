@@ -1,9 +1,6 @@
 
 /*
 Name:Sahil Gupta
-Date:5 Oct 2024
-File Name:Porfolio
-Studend_id:301436261
 */
 
 
@@ -178,7 +175,9 @@ span{
   color: rgba(8,203,229,255);
 
 }
-
+#left_section, #right_section{
+  margin: auto;
+}
 
 #home_content{
   display: flex;
@@ -209,21 +208,28 @@ li.nav_home:hover{
 @media (max-width: 655px) {
   #home_content {
     top:120px;
+    justify-content: center;
+    display: flex;
   }
   li.nav_home {
     margin: 0 10px 0 10px;
   }
   #home_content{
     display: block;
+    padding: 20px;
   }
-  #left_section, #right_section{
-    margin: auto;
-
+  #left_section {
+    width:78%;
+  }
+  #right_section_para{
+    right:10px;
   }
   }
 .container li>a{
   color: white;
+  
 }
+
 
 nav > ul > li {
   position: relative; /* Ensure the li element holds the pseudo-element correctly */

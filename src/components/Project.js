@@ -36,9 +36,9 @@ function Projects() {
                             <video src={about} autoPlay loop muted />
                         </div>
                     </a>
-                    <a href="http://studentweb.cencol.ca/sgupt172/Assignment-3/assignment3.html" ><div id="project_two">Bug Smasher</div></a>
+                    <a href="http://studentweb.cencol.ca/sgupt172/Assignment-3/assignment3.html" target='_blank'><div id="project_two">Bug Smasher</div></a>
 
-                    <a href="https://github.com/SahilGupta721/Gui-Calculator"><div id="project_three">GUI Application</div></a>
+                    <a href="https://github.com/SahilGupta721/Gui-Calculator" target='_blank'><div id="project_three">GUI Application</div></a>
                     {/* <p id="project_content">
                 Project:1=It is bascially bug smasher where user will cath bug<br/>
                 Project:2=It is bascially a photo gallery slideshow application<br/>

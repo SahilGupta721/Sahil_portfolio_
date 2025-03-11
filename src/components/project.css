@@ -4,21 +4,24 @@
   justify-content: space-between;
 
 }
-.github{
+.github, #github2, #live2{
   margin-top:200px;
   background-color: lightgreen;
   display: inline-block;
   color: black;
 }
+#github2{
+  margin-right:140px;
+}
 
-#project_one{
+#project_one, #project_four{
   position: relative;
 
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-#project_one>video {
+#project_one>video, #project_four>video {
   position: absolute;
     top: 0;
     left: 0;
@@ -84,7 +87,7 @@ nav > ul > li {
 
 #project_one,
 #project_two,
-#project_three {
+#project_three, #project_four{
     width: 250px;
     border: 2px solid white;
     height: 250px;
@@ -116,7 +119,7 @@ nav > ul > li {
 }
 
 
-#project_one{
+#project_one, #project_four{
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;

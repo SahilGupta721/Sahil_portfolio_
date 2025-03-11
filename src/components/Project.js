@@ -1,7 +1,10 @@
+
 import { NavLink } from 'react-router-dom';
 import about from "./videos/interview.mp4";
 import city from "./videos/city.mp4";
+
 import "./project.css";
+const winter ='https://res.cloudinary.com/doype8ygx/video/upload/v1741510586/exxaa6aamaq3nkad9lfv.mp4';
 function Projects() {
     return (
         <>
@@ -36,14 +39,18 @@ function Projects() {
                             <video src={about} autoPlay loop muted />
                         </div>
                     </a>
+                    <a href="https://vizweather.vercel.app/" target='_blank'><div id="project_four"><span>VizWeather</span><video src={winter} autoPlay loop muted />
+                    
+                    <a href="https://github.com/SahilGupta721/VizWeather_frontend"><span id="github2">Github</span></a>
+                    
+                    <a href='https://vizweather.vercel.app/'><span id="live2">Live</span></a>
+                    </div>
+                    </a>
+
                     <a href="http://studentweb.cencol.ca/sgupt172/Assignment-3/assignment3.html" target='_blank'><div id="project_two">Bug Smasher</div></a>
 
                     <a href="https://github.com/SahilGupta721/Gui-Calculator" target='_blank'><div id="project_three">GUI Application</div></a>
-                    {/* <p id="project_content">
-                Project:1=It is bascially bug smasher where user will cath bug<br/>
-                Project:2=It is bascially a photo gallery slideshow application<br/>
-                Project:1=It is project to demonstrate how to retrieve content from server
-                </p> */}
+                    
                 </div>
             </section>
 

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto:wght@100..900&display=swap');
+#linkedin>svg, #github>svg, #Email>svg{
+  color: white;
+  margin: 0 10px 0 15px;
+  font-size: 50px;
+  display: block;
+  transition: 1s all;
+}
+#linkedin>svg:hover, #github>svg:hover, #Email>svg:hover{
+  color:rgba(8,203,229,255);
+}
+.icons{
+  display: flex;
+}
+.icons>div{
+  height:60px;
+}
+#container_home_video{
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#container_home_video>video {
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  position: fixed;
+}
+
+.quality>a{
+  color:white;
+  
+  text-decoration:none ;
+}
+.quality>a:hover{
+  border: 0;
+}
+#left_section{
+  color:white;
+  font-size: 3em;
+  font-style: italic;
+  padding:20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  backdrop-filter: blur(2px);
+  z-index: 10;
+  position: relative;
+  border: 4px solid transparent;
+  width:40%;
+  height:50%;
+
+}
+
+#left_section_para{
+  font-size: 25px;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  backdrop-filter: blur(0);
+  
+}
+#right_section{
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  filter:grayscale(100%);
+  background-image:url(../components/images/sahil_photo.png);
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: contain;
+  transition: filter 1s;
+  transition: transform 0.5s;
+}
+#right_section_para {
+  position: absolute;
+  top:280px;
+  color:white;
+  transition: all 2s;
+  width: 330px;
+}
+#right_section:hover{
+  filter:grayscale(0);
+  cursor: pointer;
+
+  transform: scale(1.1);
+  display: block;
+  
+}
+
+span{
+  display: block;
+}
+
+
+ #left_section:hover{
+  /*remove border:transparent the left_section then see hover will not work why?? at line 77*/ 
+  backdrop-filter: blur(3.5px);
+  transition: border 2s;
+  border: 4px solid rgba(8,203,229,255);
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+} 
+#left_section_para >li>span{
+  display: inline-block;
+  margin-top:2px ;
+}
+#left_section_para >li a:hover{
+  color: rgba(8,203,229,255);
+
+}
+#left_section, #right_section{
+  margin: auto;
+}
+
+#home_content{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+  top:250px;
+}
+span{
+  font-size: 16px;
+}
+.font-one{
+  background-color: aqua;
+}
+
+.font-two{
+  background-color: aqua;
+}
+
+@media (max-width: 655px) {
+  #home_content {
+    top:120px;
+    justify-content: center;
+    display: flex;
+  }
+
+  #home_content{
+    display: block;
+    padding: 20px;
+  }
+  #left_section {
+    width:78%;
+  }
+  #right_section_para{
+    right:10px;
+  }
+  }
+
+
+.container_project ul>li:hover{
+  border: 2px solid transparent;
+} 
+.container ul>li:hover{
+  border: 2px solid transparent;
+}

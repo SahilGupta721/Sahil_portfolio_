@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto:wght@100..900&display=swap');
+
+
+.container_service{
+    position: absolute;
+    top:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#container_service_video>video{
+    /*This code is very imp to make responsive video*/
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    top:0; /*To remove the upper white space*/
+    height: 100%;
+   
+}
+
+.section_service_content{
+    margin-bottom:10px;
+    position: absolute;
+    flex-wrap: wrap;
+    display: flex;
+    top:120px;
+    width: 100%;
+    
+}
+.container_service>nav>ul{
+    display: flex;
+
+}
+.container_service{
+    margin-top:20px;
+}
+#technical_skills,#web_database,#tools,#programming_languages{
+    width:350px;
+    height: 308px;
+    color: white;   
+    border: transparent;
+    transition: 0.5s all ease-in;
+}
+
+#technical_skills:hover,#web_database:hover,#tools:hover,#programming_languages:hover{
+    border: 2px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    color: rgba(8,203,229,255);
+    cursor: pointer;
+
+}
+#service_cards{
+    display: flex;
+    gap:25px;
+    width: 100%;
+
+    justify-content: center;
+}
+
+#service_one{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:10px ;
+
+}
+#service_two{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding:10px ;
+}
+#service_three{
+    padding:10px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#service_card-2{
+    display: flex;
+    gap:25px;
+    width: 100%;
+    justify-content: center;
+  
+    
+}
+#tools{
+    width: 350px;
+    height: 308px;
+    color: white;
+    border: transparent;
+    transition: 0.5s all ease-in;
+}
+
+.material-symbols-outlined{
+    color:white;
+}
+.technical_skills_list{
+    list-style-type: none;
+    backdrop-filter: blur(0);
+}
+
+.tools_list{
+    list-style-type: none;
+    backdrop-filter: blur(0);
+}
+#tools>h3{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif
+
+}
+ul>div>li{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+#technical_skills>h3{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+}
+li h4{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+#web_database>h3{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif
+}
+#programming_languages>h3{
+    text-align:center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif
+}
+#web_database{
+    margin:auto;
+    margin-top:30px;
+
+}
+#web_database{
+    margin:0;
+}
+
+/*Responsive design begin*/
+@media (max-width: 687px) {
+   
+    .container_service {
+        justify-content: flex-start;
+    }
+    .section_service_content {
+        display: block;
+    }
+    #service_cards,#service_card-2{
+        display: block;
+    }
+
+    #web_database, #programming_languages, #tools, #technical_skills {
+        margin:auto
+    }
+    }
+
+    .container_service li>a{
+        color: white;
+    }

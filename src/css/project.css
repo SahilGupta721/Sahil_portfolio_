@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto:wght@100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+#container_project_video > video {
+  position: fixed;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+#project_content {
+  padding-top: 50px;
+  z-index: 1;
+}
+
+#project_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  grid-template-rows: repeat(2, 250px);
+  gap: 70px;
+  margin-bottom: 10px;
+  justify-items: center; 
+}
+
+#project_one, #project_two, #project_three, #project_four {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  border: 2px solid white;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+#project_one .interviewprep-video,
+#project_two .winter-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  z-index: -1; 
+}
+
+#project_three {
+  background-image: url('../components/images/bug.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#project_four {
+  background-image: url('../components/images/gui.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#project_four span {
+  color: white;
+}
+
+#project_three .buttons, #project_four .buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+#project_three, #project_four {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.project-name {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 2;
+}
+
+.buttons_one, .buttons_two, .buttons_three, .buttons_four {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+#live, #code, #live_two, #code_two, #live_three, #code_four {
+  padding: 10px 15px;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: lighter;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+#live:hover, #code:hover, #live_two:hover, #code_two:hover, #live_three:hover, #code_four:hover {
+  background-color: rgb(0, 255, 0, 0.7); /* Change on hover */
+}
+
+#project_four a {
+  display: block;
+  padding: 10px 15px;
+  color: white  ;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.section_project_content {
+  display: flex;
+  justify-content: center;
+}
+
+.section_project_content a {
+  text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  #project_cards {
+   display: block;
+        width: 100%;
+        margin: 0 20px 20px 20px;
+        
+  }
+
+  #project_one, #project_two, #project_three, #project_four {
+    margin-top: 20px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .project-name {
+    font-size: 32px; /* Adjust text size for smaller screens */
+  }
+
+  .buttons_one, .buttons_two, .buttons_three, .buttons_four {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media (max-width: 299px) {
+  #project_cards{
+    margin: 0 0 20px 20px;
+  }
+}

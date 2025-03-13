@@ -23,13 +23,15 @@ function Contact() {
                 <label for="description" className="contact_labels"> Description:</label>
                 <textarea rows={15} required cols={80} id="description" name="description" placeholder="Hi Sahil, hope your are doing well. I saw you porfolio and would like to know more about your expertise...."></textarea>
                 <div className="submit_reset_div">
-                   <NavLink to='/'> <input className="reset" size={5} name="reset" type="reset" value="Submit" /></NavLink>
-                    <input className="submit" value="Reset" size={5} type="submit" />
+                   <NavLink to='/'> 
+                   <input className="reset" size={5} name="reset" type="submit" value="Submit" />
+                   </NavLink>
+                    <input className="submit" value="Reset" size={5} type="reset" />
                 </div>
 
             </form>
             </div> 
-        </>
+        </> 
     );
 }
 export default Contact;

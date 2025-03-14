@@ -1,4 +1,4 @@
-import drone2k from "../components/videos/drone2k.mp4";
+
 import { NavLink } from 'react-router-dom';
 import Navbar from '../components/Navbar/navbar.jsx';
 import "../css/Contact.css";

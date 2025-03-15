@@ -22,11 +22,11 @@ function Contact() {
                 <input id="email" size={60} minLength={7} name="email" required maxLength={25} type="email" placeholder="alexcol90239@gmail.com" />
                 <label for="description" className="contact_labels"> Description:</label>
                 <textarea rows={15} required cols={80} id="description" name="description" placeholder="Hi Sahil, hope your are doing well. I saw you porfolio and would like to know more about your expertise...."></textarea>
-                <div className="submit_reset_div">
+                <div className="submit_div">
                    <NavLink to='/'> 
-                   <input className="reset" size={5} name="reset" type="submit" value="Submit" />
+                   <input className="submit" size={5} name="reset" type="submit" value="Submit" />
                    </NavLink>
-                    <input className="submit" value="Reset" size={5} type="reset" />
+                    
                 </div>
 
             </form>

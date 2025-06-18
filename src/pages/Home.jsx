@@ -41,12 +41,15 @@ function Home() {
                 <section id="left_section">
                     Welcome to Sahil's Profile<br/>
                     <ul id='left_section_para'>
-                        <li >1x Hackathon Winner<span className="quality"><NavLink to='https://www.linkedin.com/feed/update/urn:li:activity:7264373328046342144/' target='_blank'><OpenInNewIcon/></NavLink></span></li>
+                        <li > Enterprise Architecture Support Analyst (Co-op)<span className="quality"><NavLink target='_blank' to='https://www.linkedin.com/feed/update/urn:li:activity:7324612759004831744/'><OpenInNewIcon/></NavLink></span></li>
+
+                        <li >Check out my blog<span className="quality"><NavLink to='https://wimtach.centennialcollege.ca/?p=12338' target='_blank'><OpenInNewIcon/></NavLink></span></li>
 
                         <li >IBM Z Ambassador at IBM<span className="quality"><NavLink target='_blank' to='https://www.linkedin.com/in/sahilgupta123/overlay/1729971598801/single-media-viewer/?profileId=ACoAAEnupYoBpfQmUZ7IdrHvmLjFRCkTN76p1Nw' ><OpenInNewIcon/></NavLink></span></li>
                         
                         <li >Former SWE intern at Headstarter<span className="quality"><NavLink target='_blank' to='https://www.linkedin.com/posts/sahilgupta123_so-i-have-some-news-to-share-today-i-am-activity-7221220943468146688-wZVG?utm_source=share&utm_medium=member_desktop'><OpenInNewIcon/></NavLink></span></li>
-                        <li > Marketing Director at GDG Vancouver<span className="quality"><NavLink target='_blank' to='https://www.linkedin.com/posts/sahilgupta123_im-happy-to-share-that-ive-been-involved-activity-7228939792208605185-c0dl?utm_source=share&utm_medium=member_desktop'><OpenInNewIcon/></NavLink></span></li>
+                        
+                        
                         
                         <li >Volunteer Interviewer at CodePath<span className="quality"><NavLink target='_blank' to='https://www.linkedin.com/in/sahilgupta123/overlay/1729971752815/single-media-viewer/?profileId=ACoAAEnupYoBpfQmUZ7IdrHvmLjFRCkTN76p1Nw'><OpenInNewIcon/></NavLink></span></li>
                         </ul>

@@ -33,7 +33,7 @@ html, body {
   justify-items: center; 
 }
 
-#project_one, #project_two, #project_three, #project_four {
+#project_one, #project_two, #project_three, #project_four, #project_five {
   width: 350px;
   height: 250px;
   position: relative;
@@ -42,18 +42,16 @@ html, body {
   align-items: flex-end;
   overflow: hidden;
 }
-
-#project_one .interviewprep-video,
-#project_two .winter-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  z-index: -1; 
+#project_one {
+  background-image: url('../components/images/interviewprep.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
+#project_two {
+  background-image: url('../components/images/winter-weather.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #project_three {
   background-image: url('../components/images/bug.jpg');
   background-size: cover;
@@ -62,6 +60,11 @@ html, body {
 
 #project_four {
   background-image: url('../components/images/gui.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#project_five {
+  background-image: url('../components/images/Eco-Sphere.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -94,7 +97,7 @@ html, body {
   z-index: 2;
 }
 
-.buttons_one, .buttons_two, .buttons_three, .buttons_four {
+.buttons_one, .buttons_two, .buttons_three, .buttons_four, .buttons_five {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -151,7 +154,7 @@ html, body {
         
   }
 
-  #project_one, #project_two, #project_three, #project_four {
+  #project_one, #project_two, #project_three, #project_four, #project_five {
     margin-top: 20px;
     justify-content: center;
     width: 100%;
@@ -161,7 +164,7 @@ html, body {
     font-size: 32px; /* Adjust text size for smaller screens */
   }
 
-  .buttons_one, .buttons_two, .buttons_three, .buttons_four {
+  .buttons_one, .buttons_two, .buttons_three, .buttons_four, .button_five {
     flex-direction: column;
     gap: 10px;
   }

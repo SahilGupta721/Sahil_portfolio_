@@ -18,7 +18,7 @@ function Projects() {
                     <div id="project_cards">
                         <div id="project_five">
                             
-                            <span className='project-name'>EcoSphere</span>
+                           
                             <div className="buttons_five">
                                 <a href='https://www.eco-sphere.co/' target='_blank'><span id='live'>Live</span></a>
                                 

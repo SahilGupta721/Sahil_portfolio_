@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import Navbar from '../components/Navbar/navbar.jsx';
 
 import '../css/AboutMe.css'

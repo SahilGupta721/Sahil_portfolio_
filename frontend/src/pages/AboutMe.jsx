@@ -5,8 +5,6 @@ const about_video = "https://res.cloudinary.com/doype8ygx/video/upload/v17417541
 
 
 function About() {
-   
-    
     return (
         <>
             {/* <Navigation/> */}

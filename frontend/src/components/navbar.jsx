@@ -4,7 +4,7 @@ import '../css/navbar.css';
 function Navbar() {
   const navLinks = [
     { path: '/discover', label: 'Destinations' },
-    { path: '/stories', label: 'About' },
+    { path: '/about', label: 'About' },
     { path: '/support', label: 'Contact' },
   ];
 

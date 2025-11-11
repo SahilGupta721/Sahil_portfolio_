@@ -1,0 +1,297 @@
+/* Base styles */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; /* adjust if needed */
+}
+
+.stories-page {
+  min-height: 100vh;
+  background-color: #f9f5f0; /* bg-background */
+}
+
+main.isolate {
+  isolation: isolate;
+}
+
+/* Hero Section */
+.hero-section-ab {
+  background-color: #ffffff;
+  padding-top: 6rem; /* pt-24 */
+  padding-bottom: 5rem; /* pb-20 */
+}
+
+@media (min-width: 640px) {
+  .hero-section-ab {
+    padding-top: 8rem; /* sm:pt-32 */
+    padding-bottom: 7rem; /* sm:pb-28 */
+  }
+}
+
+.hero-container-ab {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1.5rem;  /* px-6 */
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .hero-container-ab {
+    padding-left: 2rem; /* lg:px-8 */
+    padding-right: 2rem;
+  }
+}
+
+.hero-text-ab {
+  max-width: 768px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-text-ab p.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  color: #d87d6b; /* text-terracotta-600 */
+  background-color: #fbe7e0; /* bg-terracotta-50 */
+  padding: 0.375rem 1rem; /* px-4 py-1.5 */
+  border-radius: 9999px; /* rounded-full */
+}
+
+.hero-text-ab h1 {
+  margin-top: 2rem; /* mt-8 */
+  font-family: 'Playfair Display', Georgia, serif; /* font-heading */
+  font-size: 3rem; /* text-5xl */
+  font-weight: 700; /* font-bold */
+  line-height: 1.2; /* leading-tight */
+  letter-spacing: -0.02em; /* tracking-tight */
+  color: #111827; /* text-gray-900 */
+}
+
+@media (min-width: 640px) {
+  .hero-text-ab h1 {
+    font-size: 3.75rem; /* sm:text-6xl */
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-text-ab h1 {
+    font-size: 4.5rem; /* lg:text-7xl */
+  }
+}
+
+.hero-text-ab p.description {
+  margin-top: 2rem; /* mt-8 */
+  font-size: 1.125rem; /* text-xl */
+  line-height: 2rem; /* leading-8 */
+  color: #4b5563; /* text-gray-600 */
+  max-width: 40rem; /* max-w-2xl */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Content sections */
+.section {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-top: 6rem; /* py-24 */
+  padding-bottom: 8rem; /* sm:py-32 */
+}
+
+.section-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .section-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem 3rem; /* gap-y-16 gap-x-12 */
+}
+
+@media (min-width: 1024px) {
+  .section-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    gap: 4rem 4rem; /* lg:gap-x-16 */
+  }
+}
+
+.section-text h2 {
+  font-family: 'Playfair Display', Georgia, serif; /* font-heading */
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #111827; /* text-gray-900 */
+}
+
+@media (min-width: 640px) {
+  .section-text h2 {
+    font-size: 3rem; /* sm:text-5xl */
+  }
+}
+
+.section-text p {
+  margin-top: 1.5rem;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  color: #4b5563;
+}
+
+/* Values grid */
+.values-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem; /* gap-6 */
+}
+
+@media (min-width: 1024px) {
+  .values-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.value-card {
+  background-color: #ffffff;
+  border-radius: 1rem; /* rounded-2xl */
+  padding: 2rem; /* p-8 */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  border: 1px solid #f3f4f6; /* border-gray-100 */
+  transition: box-shadow 0.2s;
+}
+
+.value-card:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.value-card dt {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* gap-4 */
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+  line-height: 1.75rem; /* leading-7 */
+  color: #111827;
+}
+
+.value-card dt .icon {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem; /* rounded-xl */
+}
+
+.value-card dd {
+  margin-top: 1rem; /* mt-4 */
+  font-size: 1rem; /* text-base */
+  line-height: 1.75rem; /* leading-7 */
+  color: #4b5563;
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(to bottom right, #111827, #1f2937, #111827); /* gradient bg-gray-900 via-gray-800 to-gray-900 */
+  padding: 6rem 1.5rem; /* py-24 px-6 */
+  border-radius: 1.875rem; /* rounded-3xl */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+}
+
+.cta-section h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.cta-section p {
+  font-size: 1rem;
+  color: #d1d5db; /* gray-300 */
+  margin-bottom: 2rem;
+  line-height: 1.75rem;
+}
+
+.cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .cta-buttons {
+    flex-direction: row;
+  }
+}
+
+.cta-buttons a.cta-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #ffffff;
+  color: #111827;
+  padding: 0.875rem 2rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+.cta-buttons a.cta-primary:hover {
+  background-color: #f9fafb;
+  transform: scale(1.05);
+}
+
+.cta-buttons a.cta-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cta-buttons a.cta-secondary:hover {
+  color: #e5e7eb; /* hover:text-gray-200 */
+}
+
+/* Decorative gradients */
+.cta-section .gradient-circle {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  filter: blur(3rem);
+}
+
+.cta-section .circle-top-right {
+  top: -5rem;
+  right: -5rem;
+  background-color: rgba(216, 125, 107, 0.1); /* terracotta-500/10 */
+}
+
+.cta-section .circle-bottom-left {
+  bottom: -5rem;
+  left: -5rem;
+  background-color: rgba(38, 164, 221, 0.1); /* ocean-500/10 */
+}

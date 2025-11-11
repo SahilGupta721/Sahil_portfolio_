@@ -233,6 +233,15 @@ main.isolate {
   height: 20rem;
   border-radius: 50%;
   filter: blur(3rem);
+  
+}
+.gradient-circle{
+  pointer-events: none; /* ✅ Prevents blocking clicks */
+  z-index: 0; 
+}
+.cta-content{
+  position: relative;
+  z-index: 1;
 }
 
 .cta-section .circle-top-right {

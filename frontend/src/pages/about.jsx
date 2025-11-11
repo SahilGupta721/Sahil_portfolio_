@@ -61,7 +61,6 @@ function About() {
                 I’m driven to craft engaging and meaningful web experiences that inspire and connect people. Join me as I continue to explore, create, and innovate in the tech world.
               </p>
               <div className="cta-buttons">
-                
                 <a href="mailto:sahilgupta70500@gmail.com" className="cta-primary">
 
                   Get Started

@@ -2,11 +2,13 @@ import "../css/about.css";
 import Services from "./Services";
 function About() {
   return (
+    <>
+   
     <div className="stories-page">
       <main className="isolate">
 
         {/* Hero Section */}
-        <div className="hero-section-ab">
+        <div id='about' className="hero-section-ab">
           <div className="hero-container-ab">
             <div className="hero-text-ab">
               <p className="label">About Me</p>
@@ -77,6 +79,7 @@ function About() {
 
       </main>
     </div>
+    </>
   );
 }
 

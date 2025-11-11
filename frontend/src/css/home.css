@@ -103,46 +103,68 @@ body {
     line-height: var(--tw-leading, var(--text-4xl--line-height));
 }
 /* project Section */
-.project-section {
+.projects-section {
   display: flex;
   justify-content: center;
   padding: 1.25rem;
+  padding-top:5rem;
+}
+/* Content sections */
+.section {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-top: 6rem; /* py-24 */
+  padding-bottom: 8rem; /* sm:py-32 */
+}
+
+.project-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .project-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media (min-width: 640px) {
-  .project-section {
+  .projects-section {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
 
 @media (min-width: 768px) {
-  .project-section {
+  .projects-section {
     padding-left: 4rem;
     padding-right: 4rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .project-section {
+  .projects-section {
     padding-left: 6rem;
     padding-right: 6rem;
   }
 }
 
 @media (min-width: 1280px) {
-  .project-section {
+  .projects-section {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 
-.project-section > div {
+.projects-section > div {
   width: 100%;
   max-width: 1280px;
 }
 
-.project-section h2 {
+.projects-section h2 {
   font-size: 1.5rem;
   font-weight: 700;
   padding: 1.25rem 1rem 0.75rem 1rem;

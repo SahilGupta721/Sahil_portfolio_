@@ -11,7 +11,8 @@ export const projects = [
     slug: "marrakech-morocco",
     description: "a smart platform for climate and land protection powered by AI and live environmental data",
     image: EcoSphere,
-    featured: true
+    featured: true,
+    link:"https://www.eco-sphere.co/"
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export const projects = [
     slug: "kyoto-japan",
     description: "refine your interview skills with AI-generated questions and personalized feedback.",
     image: InterviewPrep,
-    featured: true
+    featured: true,
+    link:"https://interviewprep-ddne.onrender.com/"
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export const projects = [
     slug: "havana-cuba",
     description: "visualize live weather data with Python-generated charts and dynamic, temperature-responsive UI.",
     image: VizWeather,
-    featured: true
+    featured: true,
+    link:"https://vizweather.vercel.app/"
   },
   {
     id: 4,
@@ -35,7 +38,8 @@ export const projects = [
     slug: "cusco-peru",
     description: "catch bugs, rack up points, and keep up as the speed increases.",
     image: bugImage,
-    featured: true
+    featured: true,
+    link:"http://studentweb.cencol.ca/sgupt172/Assignment-3/assignment3.html"
   },
   {
     

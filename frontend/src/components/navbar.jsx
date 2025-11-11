@@ -3,8 +3,8 @@ import '../css/navbar.css';
 
 function Navbar() {
   const navLinks = [
-    { path: '/discover', label: 'Destinations' },
-    { path: '/about', label: 'About' },
+    { path: '#projects', label: 'Projects' },
+    { path: '#about', label: 'About' },
     { path: '/support', label: 'Contact' },
   ];
 
@@ -19,19 +19,19 @@ function Navbar() {
             <svg className="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
               <path d="M24 4H42V30.6667H24V44H6V17.3333H24V4Z"></path>
             </svg>
-            <span className="logo-text">SophoTravel</span>
+            <span className="logo-text">Sahil Gupta</span>
           </Link>
 
           {/* Center navigation links */}
           <nav className="navbar-links">
-            <div className="links-inner">
-              {navLinks.map((link) => (
-                <Link key={link.path} className="nav-link" to={link.path}>
-                  {link.label}
-                </Link>
-              ))}
-            </div>
-          </nav>
+  <div className="links-inner">
+    {navLinks.map((link) => (
+      <a key={link.path} className="nav-link" href={link.path}>
+        {link.label}
+      </a>
+    ))}
+  </div>
+</nav>
 
           {/* Right auth buttons (uncomment to enable) */}
           {/*

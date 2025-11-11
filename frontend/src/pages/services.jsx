@@ -6,11 +6,10 @@ const Services = () => {
     <section className="services-section" id="services">
       <div className="container">
         <div className="text-center">
-          <p className="services-badge">Our Values</p>
-          <h2 className="services-title">The Principles That Guide Us</h2>
+          <p className="services-badge">My Services</p>
+          <h2 className="services-title">Innovating Through Code</h2>
           <p className="services-description">
-            We are committed to building a platform that is ethical, transparent,
-            and respectful of the cultures we feature.
+            I create impactful web and software projects that combine creativity, functionality, and modern design to solve real-world problems.
           </p>
         </div>
 
@@ -35,7 +34,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              Authenticity
+              Technical Skills
             </dt>
             <dd className="service-text">
               We guarantee that every destination on our platform is genuinely curated from local cultures, offering a true piece of their heritage.
@@ -61,7 +60,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              Responsible Travel
+              Programming languages
             </dt>
             <dd className="service-text">
               We promote sustainable tourism that respects local communities and preserves cultural integrity.
@@ -87,7 +86,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              Cultural Preservation
+              Web & Database
             </dt>
             <dd className="service-text">
               Supporting authentic travel experiences to help preserve heritage for future generations.
@@ -113,7 +112,7 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              Community
+              Tools
             </dt>
             <dd className="service-text">
               We’re building a global community of conscious travelers united by culture and exploration.

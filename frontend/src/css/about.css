@@ -187,7 +187,7 @@ main.isolate {
   }
 }
 
-.cta-buttons a.cta-primary {
+.cta-buttons .cta-primary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -206,6 +206,7 @@ main.isolate {
 .cta-buttons a.cta-primary:hover {
   background-color: #f9fafb;
   transform: scale(1.05);
+  cursor: pointer;
 }
 
 .cta-buttons a.cta-secondary {
@@ -222,6 +223,7 @@ main.isolate {
 
 .cta-buttons a.cta-secondary:hover {
   color: #e5e7eb; /* hover:text-gray-200 */
+  cursor: pointer;
 }
 
 /* Decorative gradients */

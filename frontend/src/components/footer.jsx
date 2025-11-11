@@ -17,16 +17,14 @@ const Footer = () => {
                 />
               </svg>
             </div>
-            <h2 className="footer-logo-text">SophoTravel</h2>
+            <h2 className="footer-logo-text">Sahil Gupta</h2>
           </Link>
 
           {/* Footer Links */}
           <div className="footer-links-section">
-            <p className="footer-copy">&copy; {new Date().getFullYear()} SophoTravel. All Rights Reserved.</p>
+            <p className="footer-copy">&copy; {new Date().getFullYear()} Sahil Gupta. All Rights Reserved.</p>
             <div className="footer-links">
-              <Link to="/terms" className="footer-link">Terms of Service</Link>
-              <Link to="/privacy" className="footer-link">Privacy Policy</Link>
-              <Link to="/contact" className="footer-link">Contact Us</Link>
+              <Link to="mailto:sahilgupta70500@gmail.com" className="footer-link">Contact me</Link>
             </div>
           </div>
         </div>

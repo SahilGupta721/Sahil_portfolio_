@@ -19,7 +19,7 @@ body {
 .hero-section .hero-container {
   display: flex;
   justify-content: center;
-  padding: 1.25rem; /* py-5 px-4 */
+  padding: 1.25rem; 
 }
 
 @media (min-width: 640px) {
@@ -113,8 +113,8 @@ body {
 .section {
   overflow: hidden;
   background-color: #ffffff;
-  padding-top: 6rem; /* py-24 */
-  padding-bottom: 8rem; /* sm:py-32 */
+  padding-top: 6rem;
+  padding-bottom: 8rem; 
 }
 
 .project-container {

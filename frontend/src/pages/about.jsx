@@ -1,6 +1,5 @@
 import "../css/about.css";
-import { NavLink } from "react-router-dom";
-
+import sahil_ph from '../images/sahil_ph.jpg';
 import Services from "./Services";
 function About() {
   return (
@@ -38,7 +37,9 @@ function About() {
                 <div className="section-image">
                   <div className="image-wrapper">
                     <img
-                      src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop"
+                    id='my-photo'
+                   
+                      src={`${sahil_ph}`}
                       alt="Cultural travel destinations and local experiences"
                     />
                     <div className="image-gradient"></div>
@@ -54,7 +55,7 @@ function About() {
 
 
           {/* CTA Section */}
-          <div className="cta-section">
+          <div className="cta-section" id="contact">
             <div className="cta-content">
               <h2>Let’s Build the Future Together</h2>
               <p>

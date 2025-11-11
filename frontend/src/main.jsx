@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Navbar/>
-      <Home />
+      <Home/>
       <About/>
       <Footer/>
     </BrowserRouter>

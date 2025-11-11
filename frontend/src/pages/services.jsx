@@ -1,4 +1,3 @@
-import React from "react";
 import "../css/services.css";
 
 const Services = () => {
@@ -37,7 +36,14 @@ const Services = () => {
               Technical Skills
             </dt>
             <dd className="service-text">
-              We guarantee that every destination on our platform is genuinely curated from local cultures, offering a true piece of their heritage.
+              <ul>
+                <li>Web Development</li>
+                <li>AI-Driven Automation & Chatbot Development</li>
+                <li>Building AI-powered Web Apps (OpenAI, Gemini, Hugging Face APIs)</li>
+                <li>Data Analysis</li>
+                <li>Data Structures & Algorithms</li>
+              </ul>
+              
             </dd>
           </div>
 
@@ -63,7 +69,15 @@ const Services = () => {
               Programming languages
             </dt>
             <dd className="service-text">
-              We promote sustainable tourism that respects local communities and preserves cultural integrity.
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>TypeScript</li>
+                <li>SQL</li>
+                <li>C#</li>
+                <li>JavaScript</li>
+              </ul>
+              
             </dd>
           </div>
 
@@ -89,7 +103,16 @@ const Services = () => {
               Web & Database
             </dt>
             <dd className="service-text">
-              Supporting authentic travel experiences to help preserve heritage for future generations.
+               <ul>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>MongoDB</li>
+                <li>My SQL</li>
+                <li>Restful Services</li>
+                <li>BootStrap</li>
+                <li>Node.js</li>
+              </ul>
+              
             </dd>
           </div>
 
@@ -115,7 +138,15 @@ const Services = () => {
               Tools
             </dt>
             <dd className="service-text">
-              We’re building a global community of conscious travelers united by culture and exploration.
+               <ul>
+                <li>Git</li>
+                <li>AWS</li>
+                <li>Jira</li>
+                <li>Power BI</li>
+                <li>Visual Studio code</li>
+                <li>MS Office Suit</li>
+              </ul>
+             
             </dd>
           </div>
         </div>

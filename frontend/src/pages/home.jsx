@@ -1,19 +1,9 @@
-import { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { Search, Heart, User, Menu } from "lucide-react";
+import { Link} from 'react-router-dom';
 import { projects } from '../data/projects';
-//import { products } from '../data/products-dub.js';
 import '../css/home.css'; // your separate CSS file
+import toronto from  "../images/toronto.jpg";
 
 function Home() {
-  const [wishlist, setWishlist] = useState(() => {
-    return JSON.parse(localStorage.getItem('wishlist')) || [];
-  });
-
-  const navigate = useNavigate();
-  useEffect(() => {
-    localStorage.setItem('wishlist', JSON.stringify(wishlist));
-  }, [wishlist]);
 
   const featuredprojects = projects.filter(d => d.featured);
 
@@ -28,12 +18,12 @@ function Home() {
             <div
               className="hero-content"
               style={{
-                backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url("https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1600")`
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(${toronto})`
               }}
             >
               <div className="hero-text text-4xl">
-                <h1>Discover the Soul of Your Destination</h1>
-                <h2>Bring Home a Piece of Culture</h2>
+                <h1>I’m Sahil Gupta based in Toronto, Canada</h1>
+                <h2>Software Developer | AI/ML | Project Analyst</h2>
               </div>
             </div>
           </div>
@@ -42,7 +32,7 @@ function Home() {
         {/* Featured projects Section */}
         <section className="projects-section">
           <div className="project-container">
-            <h2 id='projects'  className="section-title">Selected Projects</h2>
+            <h2 id='projects'  className="section-title">Some of recent work</h2>
             <div className="projects-scroll">
               {featuredprojects.map((projects) => (
                 <div className="project-card">
@@ -67,8 +57,6 @@ function Home() {
           </div>
         </section>
       </div>
-
-
     </>
 
   );

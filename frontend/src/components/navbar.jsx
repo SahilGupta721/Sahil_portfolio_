@@ -3,17 +3,23 @@ import '../css/navbar.css';
 
 function Navbar() {
   const navLinks = [
-    { path: '#projects', label: 'Projects' },
-    { path: '#about', label: 'About' },
-    { path: '/support', label: 'Contact' },
+    { id: 'projects', label: 'Projects' },
+    { id: 'about', label: 'About' },
+    { id: 'contact', label: 'Contact' },
   ];
+   const handleScroll = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <header className="navbar">
       <div className="navbar-container">
         {/* Rounded translucent bar */}
         <div className="navbar-inner">
-          
+
           {/* Logo */}
           <Link className="navbar-logo" to="/">
             <svg className="logo-icon" viewBox="0 0 48 48" aria-hidden="true">
@@ -24,22 +30,15 @@ function Navbar() {
 
           {/* Center navigation links */}
           <nav className="navbar-links">
-  <div className="links-inner">
-    {navLinks.map((link) => (
-      <a key={link.path} className="nav-link" href={link.path}>
-        {link.label}
-      </a>
-    ))}
-  </div>
-</nav>
+            <div className="links-inner">
+              {navLinks.map((link) => (
+                <a key={link.id} className="nav-link" onClick={() => handleScroll(link.id)}>
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </nav>
 
-          {/* Right auth buttons (uncomment to enable) */}
-          {/*
-          <div className="navbar-auth">
-            <Link className="btn-signin" to="/login">Sign In</Link>
-            <Link className="btn-signup" to="/signup">Sign Up</Link>
-          </div>
-          */}
         </div>
       </div>
     </header>
